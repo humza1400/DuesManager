@@ -52,7 +52,7 @@ Web.config       → Project configuration and authentication setup
 
 > ⚠️ Note: Make sure **SQL Server LocalDB** is installed for the default DB setup, or adjust the connection string in `Web.config` for another SQL Server instance.
 
-## 📌 Future Improvements (Optional)
+## 📌 Future Improvements
 - Role-based authorization  
 - Responsive UI using Bootstrap  
 - REST API for external integrations  
