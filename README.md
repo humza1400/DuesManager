@@ -11,10 +11,10 @@ It’s designed to help learn and demonstrate:
 - CRUD operations using Web Forms and C#
 - ASP.NET Web Forms page lifecycle
 - State management (ViewState, Session, Cookies)
-- Authentication with Forms Authentication
+- Authentication with Forms Authentication (Planned)
 - Data caching and output caching
 - Validation controls and best practices
-- SQL Server database interactions (Entity Framework)
+- SQL Server database interactions (ADO.NET)
 
 ## 🛠️ Technologies Used
 - **C#**
@@ -26,10 +26,11 @@ It’s designed to help learn and demonstrate:
 
 ## 📂 Project Structure
 ```
+/App_Data        → Application wide code
 /App_Data        → LocalDB database files  
 /Scripts         → JavaScript files 
 /Styles          → CSS files  
-Login.aspx       → Login page  
+Login.aspx       → Login page (Planned)
 Members.aspx     → Manage members  
 Payments.aspx    → Manage member payments  
 Reports.aspx     → Reports page  
@@ -37,7 +38,7 @@ Web.config       → Project configuration and authentication setup
 ```
 
 ## ✅ Features
-- **Login System** using Forms Authentication  
+- **Login System** using Forms Authentication  (Planned)
 - **Member Management**: Create, Read, Update, Delete members  
 - **Payment Management**: Track payments made by members  
 - **Page Lifecycle Demonstrations**: Logs key lifecycle events  
