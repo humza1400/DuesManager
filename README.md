@@ -2,6 +2,8 @@
 
 A general-purpose ASP.NET Web Forms application for managing members and payments.  
 This project was built as a learning exercise to explore core concepts of Web Forms development, including page lifecycle management, state management, data binding, authentication, and caching.
+![image](https://github.com/user-attachments/assets/3f1c1889-4c9a-4a29-957d-9b8ac2cd696f)
+
 
 ## 🚀 Purpose
 The project simulates a simple membership and dues management system.  
