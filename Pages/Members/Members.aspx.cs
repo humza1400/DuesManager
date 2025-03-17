@@ -3,6 +3,8 @@ using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
 using System.Web.UI.WebControls;
+using DuesManager.Helpers;
+using System.Web;
 
 namespace DuesManager.Pages.Members
 {
@@ -73,6 +75,8 @@ namespace DuesManager.Pages.Members
 
             GridViewMembers.EditIndex = -1;
             LoadMembers();
+
+            PageHelper.CompleteDataOperation(HttpContext.Current);
         }
 
         protected void GridViewMembers_RowDeleting(object sender, GridViewDeleteEventArgs e)
@@ -93,7 +97,7 @@ namespace DuesManager.Pages.Members
                 conn.Close();
             }
 
-            LoadMembers();
+            PageHelper.CompleteDataOperation(HttpContext.Current);
         }
 
         protected void btnSaveMember_Click(object sender, EventArgs e)
@@ -118,13 +122,7 @@ namespace DuesManager.Pages.Members
                 conn.Close();
             }
 
-            // Refresh the GridView
-            LoadMembers();
-
-            // Reset Controls
-            txtFirstName.Text = "";
-            txtLastName.Text = "";
-            txtEmail.Text = "";
+            PageHelper.CompleteDataOperation(HttpContext.Current);
         }
     }
 }

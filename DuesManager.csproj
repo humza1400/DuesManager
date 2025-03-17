@@ -123,6 +123,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Compile Include="App_Code\Helper.cs" />
     <Content Include="Pages\Members\Members.aspx" />
     <Content Include="Pages\Payments\Payments.aspx" />
     <Content Include="Pages\Reports\Reports.aspx" />

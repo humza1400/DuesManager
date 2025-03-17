@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2>Members</h2>
-    
+
     <a href="#" class="btn btn-success mb-3 float-end" data-bs-toggle="modal" data-bs-target="#addMemberModal">
         <i class="fas fa-plus"></i> Add Member
     </a>
@@ -46,27 +46,26 @@
     </asp:GridView>
 
     <div class="modal fade" id="addMemberModal" tabindex="-1" aria-labelledby="addMemberModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="addMemberModalLabel">Add New Member</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <asp:RequiredFieldValidator ID="rfvFirstName" runat="server" ControlToValidate="txtFirstName" ErrorMessage="First Name is required" CssClass="text-danger" Display="Dynamic" />
-                <asp:TextBox ID="txtFirstName" runat="server" CssClass="form-control mb-2" placeholder="First Name"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="rfvLastName" runat="server" ControlToValidate="txtLastName" ErrorMessage="Last Name is required" CssClass="text-danger" Display="Dynamic" />
-                <asp:TextBox ID="txtLastName" runat="server" CssClass="form-control mb-2" placeholder="Last Name"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ControlToValidate="txtEmail" ErrorMessage="Email is required" CssClass="text-danger" Display="Dynamic" />
-                <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control mb-2" placeholder="Email"></asp:TextBox>
-            </div>
-            <div class="modal-footer">
-                <asp:Button ID="btnSaveMember" runat="server" CssClass="btn btn-primary" Text="Save" OnClick="btnSaveMember_Click" />
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addMemberModalLabel">Add New Member</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <asp:RequiredFieldValidator ID="rfvFirstName" runat="server" ControlToValidate="txtFirstName" ErrorMessage="First Name is required" CssClass="text-danger" Display="Dynamic" />
+                    <asp:TextBox ID="txtFirstName" runat="server" CssClass="form-control mb-2" placeholder="First Name"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="rfvLastName" runat="server" ControlToValidate="txtLastName" ErrorMessage="Last Name is required" CssClass="text-danger" Display="Dynamic" />
+                    <asp:TextBox ID="txtLastName" runat="server" CssClass="form-control mb-2" placeholder="Last Name"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ControlToValidate="txtEmail" ErrorMessage="Email is required" CssClass="text-danger" Display="Dynamic" />
+                    <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control mb-2" placeholder="Email"></asp:TextBox>
+                </div>
+                <div class="modal-footer">
+                    <asp:Button ID="btnSaveMember" runat="server" CssClass="btn btn-primary" Text="Save" OnClick="btnSaveMember_Click" />
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
 
 </asp:Content>
