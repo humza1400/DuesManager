@@ -16,7 +16,7 @@ It’s designed to help learn and demonstrate:
 - Validation controls and best practices
 - SQL Server database interactions (ADO.NET)
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **C#**
 - **ASP.NET Web Forms**
 - **.NET Framework 4.7.2 / 4.8**
