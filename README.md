@@ -24,7 +24,7 @@ It’s designed to help learn and demonstrate:
 - **HTML/CSS/JavaScript** (Basic for UI interactions)
 - **IIS Express** (For local hosting in development)
 
-## 📂 Project Structure
+## Project Structure
 ```
 /App_Data        → Application wide code
 /App_Data        → LocalDB database files  
@@ -37,7 +37,7 @@ Reports.aspx     → Reports page
 Web.config       → Project configuration and authentication setup
 ```
 
-## ✅ Features
+## Features
 - **Login System** using Forms Authentication  (Planned)
 - **Member Management**: Create, Read, Update, Delete members  
 - **Payment Management**: Track payments made by members  
@@ -47,7 +47,7 @@ Web.config       → Project configuration and authentication setup
 - **Validation Controls**: Ensures data integrity  
 - **Simple UI** with ASP.NET Web Forms server controls (GridView, DropDownList, etc.)
 
-## 💡 How to Run Locally
+## How to Run Locally
 1. Open the solution in **Visual Studio 2022 (or later)**  
 2. Build the project  
 3. Run the app with **IIS Express** (`F5` or `Ctrl+F5`)  
@@ -55,11 +55,11 @@ Web.config       → Project configuration and authentication setup
 
 > ⚠️ Note: Make sure **SQL Server LocalDB** is installed for the default DB setup, or adjust the connection string in `Web.config` for another SQL Server instance.
 
-## 📌 Future Improvements
+## Future Improvements
 - Role-based authorization  
 - Responsive UI using Bootstrap  
 - REST API for external integrations  
 - Improved error handling and logging (Serilog / NLog)
 
-## 📄 License
+## License
 This project is for educational purposes.
