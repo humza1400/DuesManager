@@ -5,7 +5,7 @@ This project was built as a learning exercise to explore core concepts of Web Fo
 ![image](https://github.com/user-attachments/assets/3f1c1889-4c9a-4a29-957d-9b8ac2cd696f)
 
 
-## 🚀 Purpose
+## Purpose
 The project simulates a simple membership and dues management system.  
 It’s designed to help learn and demonstrate:
 - CRUD operations using Web Forms and C#
